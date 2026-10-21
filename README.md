@@ -14,4 +14,4 @@ run this to initiate prettier:
 npx prettier . --write
 
 run to initiate eslint on file:
-npx eslint yourfile.js 
+npx eslint yourfile.js

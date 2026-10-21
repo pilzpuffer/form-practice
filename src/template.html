@@ -5,5 +5,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
   </head>
-  <body></body>
+  <body>
+    <form novalidate>
+      <label for="email">Enter your email</label>
+      <input type="email" name="email" id="email" />
+
+      <label for="country">Enter your country</label>
+      <input type="text" name="country" id="country" />
+
+      <label for="postcode">Enter your postcode</label>
+      <input type="text" name="postcode" id="postcode" />
+
+      <label for="password">Enter your password</label>
+      <input
+        type="password"
+        name="password"
+        id="password"
+        minlength="8"
+        maxlength="20"
+      />
+
+      <label for="password-repeat">Enter your password again</label>
+      <input
+        type="password"
+        name="password-repeat"
+        id="password-repeat"
+        minlength="8"
+        maxlength="20"
+      />
+
+      <button type="submit">Submit form</button>
+    </form>
+  </body>
 </html>
