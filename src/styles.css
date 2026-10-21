@@ -74,3 +74,35 @@ form button {
   width: 8rem;
   margin: 2rem auto 0;
 }
+
+input:user-invalid {
+  border: 2px red dashed;
+}
+
+.form-positive, .form-negative {
+  width: fit-content;
+  height: fit-content;
+  margin: 0.5rem auto 0;
+  padding: 0.25rem 0.5rem;
+  display: flex;
+  flex-direction: column;
+
+  font-size: 1rem;
+}
+
+ul {
+  list-style: circle;
+  padding-inline-start: 20px;
+}
+
+div[class^='form-'] {
+  max-width: 20rem;
+}
+
+.form-positive {
+  color: green;
+}
+
+.form-negative {
+  color: red;
+}
