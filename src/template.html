@@ -10,7 +10,7 @@
       <label for="email">Enter your email</label>
       <input type="email" name="email" id="email" autocomplete="off" required/>
 
-      <label for="country">Enter your country</label>
+      <label for="country">Enter your country or its abbreviation</label>
       <input type="text" list="allCountries" name="country" id="country" autocomplete="off" required/>
       <datalist id="allCountries">
                 <option value="Afghanistan">🇦🇫 Afghanistan</option>
@@ -180,7 +180,7 @@
       </datalist>
 
       <label for="postcode">Enter your postcode</label>
-      <input type="text" name="postcode" id="postcode" autocomplete="off" required/>
+      <input type="text" name="postcode" id="postcode" autocomplete="off" required disabled/>
 
       <label for="password">Enter your password</label>
       <input
@@ -190,6 +190,7 @@
         minlength="8"
         maxlength="20"
         autocomplete="off"
+        pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$"
         required
       />
 
