@@ -69,7 +69,7 @@ window.addEventListener('load', function() {
     })
 
     postalCode.addEventListener('input', function() {
-        postalCode.setAttribute('pattern', rightCountry.postal)
+        // postalCode.setAttribute('pattern', rightCountry.postal)
         if (rightCountry.postal) {
             // postalCode.setAttribute('pattern', rightCountry.postal)
             // if (postalCode.validity.typeMismatch) {
@@ -78,9 +78,9 @@ window.addEventListener('load', function() {
             //     postalCode.setCustomValidity("");
             // }
             // postalCode.reportValidity()
+            // console.log(postalCode.value, typeof postalCode.value, rightCountry.postal.test(postalCode.value))
+            // rightCountry.postal.test(postalCode.value)
             
-            rightCountry.postal.test(postalCode.value)
-            console.log(postalCode.value, typeof postalCode.value, rightCountry.postal.test(postalCode.value))
             
         } 
     })
