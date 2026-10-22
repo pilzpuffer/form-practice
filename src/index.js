@@ -13,6 +13,11 @@ window.addEventListener('load', function() {
         mail.reportValidity()
     })
 
+    let country = document.querySelector("#country");
+    country.addEventListener('input', function() {
+        
+    })
+
 
     const form = document.querySelector("form");
         form.addEventListener("submit", event => {

@@ -1,17 +1,5 @@
-# template-npm
+# form-practice
 
-commands to run:
-npm init -y --init-type=module
-npm install --save-dev webpack webpack-cli
-npm install --save-dev html-webpack-plugin
-npm install --save-dev style-loader css-loader
-npm install --save-dev html-loader
-npm install --save-dev --save-exact prettier@3.9.10
-npm init @eslint/config@latest
-npm install --save-dev webpack-dev-server
+## ACKNOWLEDGEMENTS
 
-run this to initiate prettier:
-npx prettier . --write
-
-run to initiate eslint on file:
-npx eslint yourfile.js
+The country regex list is based on <a href="https://github.com/ariankoochak/regex-patterns-of-all-countries">this source</a>
