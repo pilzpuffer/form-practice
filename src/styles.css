@@ -70,12 +70,16 @@ input + label, datalist + label {
   margin-top: 1rem;
 }
 
-div + label {
+div + label, #passwordInform {
   margin-top: 0.5rem;
 }
 
 .warn {
   color: red;
+}
+
+.correct {
+  color: green;
 }
 
 form button {

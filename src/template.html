@@ -180,7 +180,7 @@
       </datalist>
 
       <label for="postcode">Enter your postcode</label>
-      <input type="text" name="postcode" id="postcode" autocomplete="off" required disabled pattern="^\d{5}$"/>
+      <input type="text" name="postcode" id="postcode" autocomplete="off" required disabled/>
 
       <label for="password">Enter your password</label>
       <input
@@ -190,7 +190,7 @@
         minlength="8"
         maxlength="20"
         autocomplete="off"
-        pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$"
+        pattern="(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,20}"
         required
       />
 
@@ -202,6 +202,7 @@
         minlength="8"
         maxlength="20"
         autocomplete="off"
+        disabled
         required
       />
 
